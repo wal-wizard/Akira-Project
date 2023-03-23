@@ -6,6 +6,8 @@
 .navbar {
     display: flex;
     justify-content: space-evenly;
+    z-index: 99;
+    position: relative;
 }
 
 .nav-itnes {

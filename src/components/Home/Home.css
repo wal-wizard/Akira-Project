@@ -2,7 +2,6 @@
     width: 100%;
     height: 100vh;
 
-    background-color: rgb(117, 117, 117);
 }
 
 .gif__background {
@@ -11,4 +10,94 @@
     position: fixed;
     z-index: -0;
     filter: brightness(50%);
+    top: 0;
+}
+
+.home-itens {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 25%;
+}
+
+.logo-img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.year {
+    position: absolute;
+    top: -100px;
+    left: 76%;
+    font-size: 4rem;
+
+    background: -webkit-linear-gradient(red, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.bi-play-fill {
+    font-size: 3.5rem;
+    position: relative;
+    top: 10px;
+}
+
+.movie {
+    margin-right: 100px;
+    background-color: red;
+    padding: 20px;
+    color: #fff;
+
+    transition: .5s;
+}
+
+.movie:hover {
+    background-color: #fff;
+    color: red;
+}
+
+
+.imdb {
+    color: red;
+    padding: 20px;
+    background-color: #fff;
+    transition: .5s;
+}
+
+.imdb:hover {
+    color: #fff;
+    background-color: red;
+}
+
+
+.botton__section {
+    display: flex;
+    position: relative;top: 50%;
+    justify-content: space-evenly;
+}
+
+.icons {
+    font-size: 2rem;
+
+    color: red;
+}
+
+.icons i {
+     margin-right: 20px;
+}
+
+.we {
+    color: red;
+}
+
+.icons {
+    position: relative;
+    top: -10px;
 }
