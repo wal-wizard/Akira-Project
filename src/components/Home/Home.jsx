@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="home">
       <Navbar />
-      {/* <img src={require("../img/background.gif")} alt="home" className="gif__background"/> */}
+      <img src={require("../img/background.gif")} alt="home" className="gif__background"/>
 
       <div className="home-itens">
         <div className="btns">
